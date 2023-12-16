@@ -6,6 +6,11 @@ const hemant = {
   job: "Software developer",
   experince: "7 Years",
   skills: ["NextJS", "ReactJS", "Javascript"],
+  softSkills: {
+    communication: "Level9",
+    ethics: "Level 8",
+    thinking: "first principle",
+  },
 };
 
 console.log(hemant);
@@ -21,3 +26,7 @@ console.log(hemant);
 
 //accessing values from the object array
 console.log(hemant.skills);
+
+//adding property to softskills nested object
+hemant.softSkills.values = "To be the best";
+console.log(hemant);
