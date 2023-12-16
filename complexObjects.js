@@ -30,3 +30,15 @@ console.log(hemant.skills);
 //adding property to softskills nested object
 hemant.softSkills.values = "To be the best";
 console.log(hemant);
+
+//object destructuring
+//desctructuring means assigning values of objects to varibles (here variables are fname and title)
+
+const { firstName: fname, job: title } = hemant;
+console.log("FirstName is :", fname);
+console.log("Job is :", title);
+
+//if the variable names are same as object propreties
+const { firstName, job } = hemant;
+console.log(firstName);
+console.log(job);
